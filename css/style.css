@@ -1,0 +1,275 @@
+/********************* ALL *********************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/background.png');
+    font-size: 16px;
+    font-family: 'Poppins', serif;
+    color: #05080F;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+/********************* Page *********************/
+
+/* Titres */
+/*h1 {
+    font-size: 48.83px;
+    font-family: 'Roboto Slab', serif;
+}
+*/
+h2 {
+    font-size: 39,06px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    font-size: 31.25px;
+}
+
+.realization h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+.social-network {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8.4vh;
+    align-self: flex-end;
+}
+
+.social-network img {
+    color: #05080F;
+    width: 60px;
+    height: 60px;
+}
+
+/********************* Images *********************/
+
+
+/*
+.home {
+    background-image: url(/img/close-up-man-writing-code-laptop.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+.cv img {
+    width: auto;
+    max-height: 100%;
+    text-align: center;
+    border-radius: 2%;
+}
+
+/********************* SWIPERJS *********************/ 
+
+:root {
+    --swiper-theme-color: unset;
+}
+
+/* Swiper-1 */
+.swiper-1 {
+    width: 100%;
+    height: 94.2vh;
+}
+
+/* Swiper Content */
+.swiper-content {
+    display: flex;
+    max-width: 120vh;
+    margin: 0 auto;
+    width: 120vh;
+    max-height: 75vh;
+    height: 75vh;
+}
+
+/* Nav - Bullets */
+/* .swiper-pagination-1 .swiper-pagination-bullet {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color:#000;
+    opacity: 1;
+} */
+
+
+
+.swiper-pagination-bullet1:hover, .swiper-pagination-bullet2:hover, .swiper-pagination-bullet3:hover {
+    transition-duration: 0.1s;
+    border-radius: 9px;
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet1 .swiper-pagination-bullet2 .swiper-pagination-bullet3 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.swiper-pagination-1::after {
+    background-color: unset;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: unset;
+}
+
+.swiper-pagination-bullet1 {
+    background: unset;
+    background-image: url(/img/home.svg); 
+    background-size: cover;
+    background-color: #F0F1F9;
+}
+
+.swiper-pagination-bullet2 {
+    background: unset;
+    background-image: url(/img/contact.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #F0F1F9;
+}
+
+
+.swiper-pagination-bullet3 {
+    background: unset;
+    background-image: url(/img/realization.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #F0F1F9;
+}
+
+/* Emplacement bullet 1 */
+.swiper-pagination-1 {
+    right: unset;
+    top: 85%;
+    transform: unset;
+    margin: 0 auto;
+    width: 100%;
+    background: none;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+    right: unset;
+    top: 85%;
+    transform: unset;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin-right: 4px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    width: 5.3vw;
+    height: 5.3vw;
+    transform: scale(0.75, 0.75);
+    border-radius: 1vw;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-tap-highlight-color: rgba(0,0,0,0.25);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+
+    background-color: white;
+}
+
+.swiper-content-img {
+    width: 60vh;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.swiper-content-text {
+    width: 50vh;
+    margin-top: 10vh;
+    height: auto;
+    margin-right: 0;
+    margin-left: auto;
+}
+/*
+.swiper-content-text h1 {
+    margin-top: auto;
+    margin-bottom: 5vh;
+}
+*/
+.swiper-content-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    line-height: 120%;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+    text-align: justify;
+}
+
+.swiper-content-text p:nth-child(3) {
+    margin-top: 1.5vh;
+}
+
+/* swiper-2 */
+
+.swiper-2 {
+    width: 100vh;
+    max-height: 80vh;
+}
+
+.swiper-2 img {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    margin: 0 auto;
+}
+
+.swiper-2-content {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #808080;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+      color: #05080F;
+}
+
+
+
+
+
+/********************* Footer *********************/ 
+/*.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #05080F;
+    padding: 15px 0;
+    color: #f0f1f9;
+    font-size: 16px;
+}
+
+.footer span, .footer a {
+    color: #F0F1F9;
+}*/
