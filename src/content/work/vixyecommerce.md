@@ -1,7 +1,7 @@
 ---
 title: Vixy-fr (ecommerce)
 publishDate: 2023-04-01 00:00:00
-img: /assets/vixyfrshop.jpg
+img: /assets/vixyshop.jpg
 img_alt: Site Ecommerce Vixy-fr.
 description: |
   Développement d'un projet de site ecommerce sur Symfony 6.2
