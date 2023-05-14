@@ -1,7 +1,7 @@
 ---
 title: ERP v1.0
 publishDate: 2023-04-04 00:00:00
-img: /assets/stock-3.jpg
+img: /assets/erp.jpg
 img_alt: Projet ERP v1.0
 description: |
   Développement d'un espace administrateur pour la gestion d'entreprise
